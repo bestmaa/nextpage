@@ -3,15 +3,15 @@ function getMobileOperatingSystem() {
 
     // Windows Phone must come first because its UA also contains "Android"
     if (/windows phone/i.test(userAgent)) {
-        alert("window")
+        alert("this device window")
     }
 
     if (/android/i.test(userAgent)) {
-       alert("Android");
+       alert("this device Android");
     }
 
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        alert("iOS");
+        alert("this device iOS");
     }
 
     // return "unknown";
