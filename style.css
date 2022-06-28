@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  /* transform: scaleY(0.9) */
+}
+html{
+    position: relative;
+    height: 100%;
+}
+body{
+    height: 100%;
+    /* transform: scale(0.9); */
+}
+.main-screen{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+header {
+  padding: 15px 0px;
+}
+#box {
+  max-width: 1170px;
+  margin: 0px auto;
+}
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0px -15px;
+}
+.row > .col {
+  padding: 0px 15px;
+  width: 50%;
+}
+.left-cont {
+  margin-top: 70px;
+}
+.left-cont > h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 61px;
+  color: #b9b9b9;
+  margin-bottom: 20px;
+}
+.left-cont > h1 > span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  color: #5c1c4f;
+  display: block;
+}
+.left-cont > p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+}
+.right-phone-image {
+  width: 400px;
+}
+.prple-Box {
+  background: #cd45b7;
+  width: 100%;
+  padding: 14px 0px;
+  margin-top: -310px;
+}
+.icon-class > a {
+  display: inline-block;
+  vertical-align: top;
+}
+.icon-class > a >img {
+    width: 180px;
+  height: 50px;
+}
+
+.prple-Box p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    /* top: 350px; */
+}
+footer img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
